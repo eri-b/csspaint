@@ -1,0 +1,54 @@
+html {
+  min-height: 100%;
+  display: flex; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #555;
+  background: #eee;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  display: flex; }
+
+h1 {
+  color: #333; }
+
+p {
+  text-align: center; }
+
+@keyframes hoverstyle {
+  0% {background: white; }
+  100% {background: black; } }
+
+#canvas > span {
+  animation-name: hoverstyle;
+  animation-duration: 20ms;
+  animation-play-state: paused;
+  animation-fill-mode: both;
+  padding:3px;
+  display: inline-block;
+}
+
+#canvas > span:hover {
+  animation-play-state: running; }
+
+#canvas {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  width: 700px;
+  margin: 0 auto;
+  background: white;
+  opacity: 0;
+  transition: 0.3s; }
+
+.in #canvas {
+  opacity: 1; }
+
+.in p {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
