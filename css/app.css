@@ -1,0 +1,21 @@
+@keyframes hoverstyle {
+  0% {background: white; }
+  100% {background: black; } }
+
+#canvas > span {
+  animation-name: hoverstyle;
+  animation-duration: 20ms;
+  animation-play-state: paused;
+  animation-fill-mode: both;
+  padding:3px;
+  display: inline-block;
+}
+
+#canvas > span:hover {
+  animation-play-state: running; }
+
+#canvas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  background: white;}
