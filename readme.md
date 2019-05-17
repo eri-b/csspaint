@@ -3,6 +3,8 @@
 A simple paint app using a bit of CSS, and no javascript.
 
 
+[Working demo](https://eri-b.github.io/csspaint/)
+
 ### Your HTML
 ```
 <div class="canvas">
