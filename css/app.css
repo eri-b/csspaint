@@ -1,6 +1,7 @@
 @keyframes hoverstyle {
   0% {background: white; }
-  100% {background: black; } }
+  100% {background: black; }
+}
 
 #canvas > span {
   animation-name: hoverstyle;
