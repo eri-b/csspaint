@@ -42,6 +42,5 @@ Because the animation-play-state is set to 'both', the transition remains howeve
 
 Since it's just HTML and CSS, you can customize your pixels using whatever CSS you fancy. Add intermediate color steps to the keyframes, adjust the animation-duration, change pixel size/shape, etc. Live it up!
 
-![](https://eri-b.github.io/csspaint/drawings/img1.png)
 ![](https://eri-b.github.io/csspaint/drawings/img2.png)
 
