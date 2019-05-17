@@ -8,7 +8,6 @@
   animation-play-state: paused;
   animation-fill-mode: both;
   padding:3px;
-  display: inline-block;
 }
 
 #canvas > span:hover {
